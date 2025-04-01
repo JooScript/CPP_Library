@@ -63,7 +63,7 @@ public:
         {
             return char(RandomNumber(48, 57));
         }
-        defualt:
+        default:
         {
             return char(RandomNumber(65, 90));
         }
@@ -212,7 +212,7 @@ public:
     static void ClearScreen()
     {
         system("clear"); // For linux
-        system("CLR");   // For windows
+        system("CLS");   // For windows
     }
 
     static void ResetColorsToDefult()
